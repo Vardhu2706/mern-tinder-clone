@@ -23,7 +23,6 @@ const Homepage = () => {
     <div className="overlay">
       <Navbar
         minimal={false}
-        authToken={authToken}
         setShowModal={setShowModal}
         showModal={showModal}
         setIsSignUp={setIsSignUp}
